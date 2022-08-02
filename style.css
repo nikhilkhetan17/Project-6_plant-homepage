@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -----------------------------------------NAVIGATION BAR-------------------- */
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+#navMid {
+  display: flex;
+}
+
+#navMid h4 {
+  padding: 0 50px;
+  font-family: Allerta;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+#navMid div:first-of-type {
+  text-decoration: underline 1px solid black;
+}
+
+#navEnd {
+  display: flex;
+  margin-right: 50px;
+}
+
+#navEnd div img {
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+#navFirst img {
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+/* --------------------------------BOTTOM PART (Footer)---------------------------------------------- */
+
+#midWhole {
+  height: 80vh;
+}
+
+#midWholePart13 {
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-start; */
+  /* height: 50vh; */
+  margin-top: 3%;
+  margin-left: 50px;
+}
+
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  width: 23%;
+  align-items: center;
+  text-align: start;
+  font-family: Abel;
+}
+
+#feeding,
+#light,
+#care {
+  margin-right: 10px;
+}
+
+#feeding1,
+#light1,
+#care1 {
+  font-size: 25px;
+}
+.just-extra-line {
+  margin-left: 30px;
+}
+
+/* -------------------------------TOP PART-------------------------------- */
+#midWholePart11 {
+  /* margin-top: ; */
+  margin-left: 30px;
+}
+#monstera {
+  font-size: 130px;
+  font-family: Allerta;
+}
+li {
+  list-style: none;
+}
+
+.li-extra {
+  font-size: 15px;
+  width: 50%;
+  font-family: Allerta;
+}
+
+#midWholePart121 div h1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #466d50;
+  display: inline-block;
+  padding: 8px 40px;
+
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: Abel;
+  font-weight: lighter;
+  cursor: pointer;
+}
+/* #midWholePart122 img {
+  position: fixed;
+  top: 422px;
+  left: 210px;
+  width: 12px;
+} */
+/* ------------------------------------------------------Flower Image */
+
+#imgMain {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 380px;
+}
